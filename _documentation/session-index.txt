@@ -1,0 +1,3 @@
+$_SESSION["User"] = Properties of user(_control/login-c.php) ex: unserialize($_SESSION["User"]) -> idUser
+$_SESSION["Cron"] = Cron with information type CronMC (_model/CronMc.php). If exists, show page (_view/_pages/page-cron.php)
+$_SESSION["CountErrors"] = Count errors used for captcha on "Login Page" (_control/login-c.php)
